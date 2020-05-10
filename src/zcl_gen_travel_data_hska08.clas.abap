@@ -1,4 +1,4 @@
-CLASS zcl_generate_travel_data_08 DEFINITION
+CLASS zcl_gen_travel_data_hska08 DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -11,7 +11,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_generate_travel_data_08 IMPLEMENTATION.
+CLASS zcl_gen_travel_data_hska08 IMPLEMENTATION.
  METHOD if_oo_adt_classrun~main.
     DATA:itab TYPE TABLE OF ztravel_hska08.
 
